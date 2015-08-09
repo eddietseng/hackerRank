@@ -69,6 +69,34 @@ public class Solution {
     }*/
 
     /**
+     * Java Output Formatting Processing method
+     */
+    /*public static void main(String[] args) {
+        Scanner stdin = new Scanner( System.in );
+
+        String[] temp = stdin.nextLine().trim().split( "\\s+" );
+        String s1 = temp[0];
+        int a1 = Integer.parseInt(temp[1]);
+        temp = stdin.nextLine().trim().split( "\\s+" );
+        String s2 = temp[0];
+        int a2 = Integer.parseInt( temp[1] );
+        temp = stdin.nextLine().trim().split( "\\s+" );
+        String s3 = temp[0];
+        int a3 = Integer.parseInt( temp[1] );
+
+        // stdin.next() will get elements by whitespaces
+        // String s1 = stdin.next;
+        // int a1 = Integer.parseInt( stdin.next ); will do the trick too.
+
+        System.out.println( "================================" );
+        // Format specifiers begin with a percent sign (%) and end with a converter
+        System.out.printf("%-15s%03d %n", s1, a1); // "-" = Left-justified; 15 = 15 characters in width; s = String converter
+        System.out.printf("%-15s%03d %n",s2,a2); // "03" = 3 characters in width, with leading zeroes as necessary.
+        System.out.printf("%-15s%03d %n",s3,a3); // d = decimal integer converter; n = new line
+        System.out.println( "================================" );
+    }*/
+
+    /**
      * Java Output Formatting
      */
     /*public static void main(String[] args) {
